@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+import android.util.Log;
+
 /**
  * Example local unit test, which will execute on the development machine (host).
  *
@@ -17,6 +19,6 @@ public class ExampleUnitTest {
 
     @Test
     public void addition_isNotCorrect() {
-        assertEquals(4, 2 + 4);
+        assertNotEquals(4, 1 + 2);
     }
 }
